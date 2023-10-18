@@ -1,5 +1,7 @@
 # House_Price_Prediction_Advanced_Regression_Ridge_Lasso
 
+## Problem Statement
+
 A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. 
 For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below. 
 
@@ -18,7 +20,7 @@ They can accordingly manipulate the strategy of the firm and concentrate on area
 
 ## Conclusion :
 
-## Which variables are significant in predicting the price of a house
+#### Which variables are significant in predicting the price of a house
 Based on Lasso, the factors that generally affect the price are the Zoning classification, Living area square feet, Overall quality and condition of the house, Foundation type of the house, 
 Number of cars that can be accomodated in the garage, Total basement area in square feet and the Basement finished square feet area are the signficant variables.
 
@@ -30,7 +32,7 @@ MSZoning_RM
 OverallQual
 MSZoning_FV 
 
-## How well those variables describe the price of a house. Also, determine the optimal value of lambda for ridge and lasso regression.
+#### How well those variables describe the price of a house. Also, determine the optimal value of lambda for ridge and lasso regression.
 
 The variables predicted by Lasso from our analysus are significant variables for predicting the price of a house.
 
@@ -46,11 +48,11 @@ Please note that, the mean squared value of Lasso lower than that of a Ridge.
 
 As per learning below are the techniques.
 
-## Consider Ridge Regression when:
+##### Consider Ridge Regression when:
 If there are many features, and multicollinearity (high correlation between features) is a concern. If we believe that most features are relevant and don't want them to be eliminated entirely and our
 goal is to reduce overfitting while retaining all features.
 
-## Consider Lasso Regression when:
+##### Consider Lasso Regression when:
 If there are many features, but they look like many of them are irrelevant or redundant. If I want to select a subset of the most important features and eliminate the rest and finally, if I prefer a more
 interpretable and sparser model.
 
