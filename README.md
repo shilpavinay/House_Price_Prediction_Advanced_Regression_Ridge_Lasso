@@ -20,17 +20,26 @@ They can accordingly manipulate the strategy of the firm and concentrate on area
 
 ## Conclusion :
 
+### The company wants to know:
+
 #### Which variables are significant in predicting the price of a house
-Based on Lasso, the factors that generally affect the price are the Zoning classification, Living area square feet, Overall quality and condition of the house, Foundation type of the house, 
-Number of cars that can be accomodated in the garage, Total basement area in square feet and the Basement finished square feet area are the signficant variables.
+Five Most Important Predictor Variables – I will be reviewing the coefficients of the Lasso regression model to determine which five predictor variables have the largest non-zero coefficients. These are the five most important variables in your initial model.
 
-The top 5 variables are listed below.
+Below are the coefficient values from my analysis and the top 5 predictor variables are listed below.
 
-MSZoning_RL
-GrLivArea
-MSZoning_RM
-OverallQual
-MSZoning_FV 
+MSZoning_RL GrLivArea MSZoning_RM OverallQual MSZoning_FV
+
+Since Lasso helps in feature reduction (as the coefficient value of one of the feature became 0), Lasso has a better edge over Ridge.
+
+Based on Lasso, the factors that generally affect the price are:
+
+The Zoning classification,
+Living area square feet,
+Overall quality and condition of the house,
+Foundation type of the house,
+Number of cars that can be accomodated in the garage,
+Total basement area in square feet and the Basement finished square feet area
+Therefore, the variables predicted by Lasso in the above bar chart as significant variables for predicting the price of a house.
 
 #### How well those variables describe the price of a house. Also, determine the optimal value of lambda for ridge and lasso regression.
 
