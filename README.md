@@ -33,12 +33,13 @@ Since Lasso helps in feature reduction (as the coefficient value of one of the f
 
 Based on Lasso, the factors that generally affect the price are:
 
-The Zoning classification,
-Living area square feet,
-Overall quality and condition of the house,
-Foundation type of the house,
-Number of cars that can be accomodated in the garage,
-Total basement area in square feet and the Basement finished square feet area
+1. The Zoning classification,
+2. Living area square feet,
+3. Overall quality and condition of the house,
+4. Foundation type of the house,
+5. Number of cars that can be accomodated in the garage,
+6. Total basement area in square feet and the Basement finished square feet area
+
 Therefore, the variables predicted by Lasso in the above bar chart as significant variables for predicting the price of a house.
 
 #### How well those variables describe the price of a house. Also, determine the optimal value of lambda for ridge and lasso regression.
